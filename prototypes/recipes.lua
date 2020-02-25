@@ -23,13 +23,14 @@ data:extend(
             hidden = true,
             energy_required = "4",
             ingredients =
-            {
-                {"stone", 3},
-            },
+                {
+                    {"stone", 5},
+                },
             results = 
                 {
-                    {type = "item", name = "iron-ore", amount = 1},
-                    {type = "item", name = "copper-ore", amount = 1}
+                    {type = "item", name = "stone", amount_min = 0, amount_max = 2, probability = 0.5},
+                    {type = "item", name = "iron-ore", amount_min = 0, amount_max = 4},
+                    {type = "item", name = "copper-ore", amount_min = 0, amount_max = 4}
                 },
         },
 

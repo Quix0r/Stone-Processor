@@ -1,8 +1,9 @@
 {
     "name": "Stone-Processor",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "title": "Stone Processor",
     "description": "Washes stone, and has a small chance of producing iron and copper.",
     "author": "Norway174",
-    "factorio_version": "0.17"
+    "factorio_version": "1.0",
+    "dependencies": ["base >= 1.0"]
   }

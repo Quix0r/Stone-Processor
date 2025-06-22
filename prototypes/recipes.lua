@@ -6,11 +6,11 @@ data:extend(
             enabled = false,
             ingredients =
             {
-              {"stone", 10},
-              {"iron-plate", 9},
-              {"iron-gear-wheel", 5},
+              {type = "item", name = "stone", amount = 10},
+              {type = "item", name = "iron-plate", amount = 9},
+              {type = "item", name = "iron-gear-wheel", amount = 5},
             },
-            result = "stone-washer",
+            results = {{type = "item", name = "stone-washer", amount = 1}}
         },
         {
             type = "recipe",
@@ -21,10 +21,10 @@ data:extend(
             category = "crafting",
             enabled = true,
             hidden = true,
-            energy_required = "4",
+            energy_required = 4,
             ingredients =
                 {
-                    {"stone", 5},
+                    {type = "item", name = "stone", amount = 5},
                 },
             results = 
                 {
@@ -33,6 +33,5 @@ data:extend(
                     {type = "item", name = "copper-ore", amount_min = 0, amount_max = 4}
                 },
         },
-
     }
 )

@@ -1,0 +1,11 @@
+---------------------------------------------------------------------------------------------------
+Version: 0.0.4
+Date: 06.23.2025
+  Added:
+    - added `changelog.txt` for documenting major changes
+    - added `scripts/build_package.py` to easily build release packages
+  Fixes:
+    - ingredients is now full "array" with `type`, `name` and `amount`
+    - same with `results`
+    - `emissions_per_minute` needs to be an array, `pollution` now contains it
+    - there is no `hr_version` anymore, all graphics are now HR

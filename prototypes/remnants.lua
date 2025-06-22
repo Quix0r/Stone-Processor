@@ -16,24 +16,14 @@ data:extend{
         remove_on_tile_placement = false,
         animation = make_rotated_animation_variations_from_sheet(1,
         {
-          filename = "__Stone-Processor__/graphics/entity/stone-washer/remnants/stone-washer-remnants.png",
+          filename = "__Stone-Processor__/graphics/entity/stone-washer/remnants/hr-stone-washer-remnants.png",
           line_length = 1,
-          width = 234,
-          height = 200,
+          width = 467,
+          height = 415,
           frame_count = 1,
           direction_count = 1,
-          shift = util.by_pixel(0, 0), --moved from -8.5 to -4.5
-          hr_version =
-          {
-            filename = "__Stone-Processor__/graphics/entity/stone-washer/remnants/hr-stone-washer-remnants.png",
-            line_length = 1,
-            width = 467,
-            height = 415,
-            frame_count = 1,
-            direction_count = 1,
-            shift = util.by_pixel(-0.25, -0.25), --moved from -8.5 to -4.5
-            scale = 0.5,
-          }
+          shift = util.by_pixel(-0.25, -0.25), --moved from -8.5 to -4.5
+          scale = 0.5,
         })
       },
 }
